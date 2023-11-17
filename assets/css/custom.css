@@ -1,0 +1,9 @@
+/* Background Color */
+.bgc{
+    background-color: #104a7b;
+}
+
+/* Bootstrap cards need a width defined */
+.card{
+    width: 15rem;
+}
