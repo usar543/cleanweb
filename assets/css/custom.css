@@ -5,5 +5,5 @@
 
 /* Bootstrap cards need a width defined */
 .card{
-    width: 15rem;
+    width: 15em;
 }
