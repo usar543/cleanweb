@@ -32,7 +32,7 @@
         <div class="navbar-nav">
           <a class="nav-link active link-light" href="home.html">Home</a>
           <a class="nav-link active link-light" href="services.html">Services</a>
-          <a class="nav-link active link-light" aria-current="page" href="contact.html">Contact Us<a>
+          <a class="nav-link active link-light" aria-current="page" href="contact.html">Contact Us</a>
         </div>
       </div>
 
@@ -55,24 +55,43 @@
       <div class="col">
         <ul class="list-unstyled">
           <li class="list-inline-item">Hours of Service: 8 am to 6 pm</li>
-          <li>Phone Number: <a href="tel:+16095101430">+1 609 510 1430</a> / <a href="tel:+12673242332">+1 267 324 2332</a></li>
+          <li>Phone Number: <a href="tel:+16095101430">+1 609 510 1430</a> / <a href="tel:+12673242332" class="ps-5 ps-sm-0">+1 267 324 2332</a></li>
           <li>Email: <a href="mailto:cleaningeandm@outlook.com">cleaningEandM@outlook.com</a></li>
         </ul>
       </div>
     </div>
 
-    <div class="row fs-4">
-      <div class="col">
-        <form></form>
+    <div class="my-3"></div>
+    
+    <div class="row text-dark fs-4">
+      <div class="col-md-4">
+        <form>
+          <div class="form-floating">
+            <input type="text" class="form-control mb-2" id="name" placeholder="Name" required>
+            <label for="name" class="fs-6">Name</label>
+          </div>
+          
+          <div class="form-floating">
+            <input type="email" class="form-control mb-2" id="email" placeholder="Email" required>
+            <label for="email" class="fs-6">Email</label>
+          </div>
+
+          <div class="form-floating">
+            <input type="tel" class="form-control mb-2" id="phone" placeholder="Phone Number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+            <label for="phone" class="fs-6">Phone Number</label>
+          </div>
+
+          <div class="form-floating">
+            <textarea class="form-control mb-2" id="textArea" placeholder="Tell us what you would like" style="height: 150px"></textarea>
+            <label for="textArea" class="fs-6">Tell us what you would like</label>
+          </div>
+
+          <button type="submit" class="btn btn-secondary mb-2">Submit</button>
+        </form>
       </div>
     </div>
 
   </div>
-
-<form>
-</form>
-
-
 
   <footer>
     <div class="container text-center">
