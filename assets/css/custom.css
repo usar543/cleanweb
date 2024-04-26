@@ -3,4 +3,7 @@
     background-color: #FFFFFF;
 }
 
+.text-color, .link-color{
+    color: #066692;
+}
 /* use a min and max width for the cards */
