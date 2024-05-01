@@ -6,4 +6,12 @@
 .text-color, .link-color{
     color: #066692;
 }
+
+.bgc2{
+    background-color: #066692;
+}
+
+.list-decoration{
+    list-style-type: none;
+}
 /* use a min and max width for the cards */
