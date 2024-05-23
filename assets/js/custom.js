@@ -9,9 +9,9 @@ function sendEmail() {
 
 
   Email.send({
-      SecureToken : "b793e9c1-b394-482b-a9ac-892bade2710d",
+      SecureToken : "041b8bb3-20b6-4a30-8bd5-3fa22be4810c",
       To : 'CleaningEandM@outlook.com',
-      From : "dlicker96@gmail.com",
+      From : "cleaning@cleaningeandm.com",
       Subject : "Email from Website",
       Body : arrangeBody
   }).then(
