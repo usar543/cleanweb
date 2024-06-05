@@ -10,3 +10,9 @@
 .bgc2{
     background-color: #066692;
 }
+
+.image-container{
+    background-image: url("../images/e-and-m-about-us.jpg");
+    background-size: cover;
+    background-position: center;
+}
